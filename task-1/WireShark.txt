@@ -1,0 +1,20 @@
+/wireshark-labs/HTTP-wireshark-file4.html HTTP/1.1 //HTTP Request in Header line 
+Host: gaia.cs.umass.edu // task host
+Connection: keep-alive // 
+Cache-Control: max-age=0 // max age of cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3 //info about user 
+Accept-Encoding: gzip, deflate 
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+If-None-Match: "2ca-596bc33423538"
+If-Modified-Since: Thu, 07 Nov 2019 06:59:01 GMT
+__________________________________________________
+HTTP/1.1 304 Not Modified // HTTP Response in Header line 
+Date: Thu, 07 Nov 2019 18:19:26 GMT // date of loading
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16 mod_perl/2.0.10 Perl/v5.16.3 // info about server
+Connection: Keep-Alive
+Keep-Alive: timeout=5, max=100
+ETag: "2ca-596bc33423538" // Strong ETag validator
+
+
