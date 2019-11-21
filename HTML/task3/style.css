@@ -1,0 +1,45 @@
+* {
+    margin: 0;/* внешние отступы */
+    padding: 0;/*внутренние отступы */  
+    }
+.ul-nav{
+    height: 100px;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color:#333;
+}
+nav li{
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: flex-start;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.ul-nav a {
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    display: block;
+}
+
+.ul-nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.ul-nav a.active {
+    background-color: rgb(76, 175, 129);
+    color: white;
+    border-radius: 20px;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    fo
+}
