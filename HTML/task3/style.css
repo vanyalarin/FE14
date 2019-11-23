@@ -2,7 +2,8 @@
     margin: 0;/* внешние отступы */
     padding: 0;/*внутренние отступы */  
     }
-.ul-nav{
+
+nav{
     height: 100px;
     width: 100%;
     list-style-type: none;
@@ -10,17 +11,21 @@
     justify-content: space-between;
     overflow: hidden;
     background-color:#333;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
-nav li{
+
+nav a{
+    margin-top: 15px;
     flex-direction: column;
     margin-left: 100px;
     margin-right: 100px;
     align-items: flex-start;
     font-weight: 700;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
 }
-.ul-nav a {
+
+nav a {
     color: #f2f2f2;
     text-align: center;
     text-decoration: none;
@@ -28,18 +33,55 @@ nav li{
     display: block;
 }
 
-.ul-nav a:hover {
-    background-color: #ddd;
+.about-me{
+    height: 700px;
+    width: 100%;
+    background: url(./scr/E5TUa_croper_ru.png) no-repeat ;
+    background-size: cover;
+    backdrop-filter: opasity(20%);
+    background-attachment: fixed;
+}
+
+.foto-with-name h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
+    font-size: 50px;
+   
+}
+
+.foto-with-name{
+    padding-top: 250px;
+    padding-left: 42%;
+    position: relative;
+}
+
+.foto-with-name img{    
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+.history{
+height: 900px;
+width: 100%;
+background-color: rgb(162, 240, 143);
+}
+
+p{
+    font-size: 60px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    text-align: center;
 }
 
 
-.ul-nav a.active {
-    background-color: rgb(76, 175, 129);
-    color: white;
-    border-radius: 20px;
-}
-h1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    fo
+
+
+
+
+
+.contacts{
+height: 900px;
+width: 100%;
+background-color: rgb(193, 143, 240);
 }
