@@ -75,13 +75,14 @@ nav a {
 }
 .about-my-life{
     display: flex;
-    justify-content: space-around;
+    justify-content: center ;
 }
 .about-my-life span{   
     font-size: 40px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
-   
+    margin-left: 45%;
+        
 }
 
 
@@ -102,17 +103,22 @@ nav a {
     text-align: center;
 }
 
+about-my-hobbies  {
+    max-width: 800px;
+}
+
 
 
 .achievements{
     height: 900px;
-width: 100%;
-background-color: rgb(243, 203, 117);
+    width: 100%;
+    background-color: rgb(243, 203, 117);
 }
 .achievements p{
     font-size: 60px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 600;
     text-align: center;
+
 
 }

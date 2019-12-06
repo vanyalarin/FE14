@@ -1,0 +1,47 @@
+body{
+  font-family: 'Monda';
+}
+
+.pointer {
+	display: inline-block;
+	margin: 150px 0;
+	counter-reset: flag;
+	box-shadow: 0 0 2px #aaa;
+}
+
+.pointer a {
+	position: relative;
+	float: left;
+	padding-left: 60px;
+	padding-right: 40px;
+	text-decoration: none;
+	line-height: 56px;
+	color: white;
+	background: #00FFFF;
+	transition: all 0.5s;
+}
+
+.pointer a:after {
+	content: "";
+	position: absolute;
+	top: -2px;
+	right: -26px;
+	z-index: 1;
+	width: 58px;
+	height: 60px;
+	background: #00FFFF;
+	box-shadow: 3px 3px 0 1px white;
+	transform: rotate(-45deg) scale(0.73);
+  transition: all 0.5s;
+  border-radius: 15%;
+}
+.pointer a.active:after{
+content: none ;
+}
+
+.pointer a:hover,
+.pointer a:hover:after,
+.pointer a.active{
+	background: #0000FF;
+}
+/* _________________________________FIRST-TASK_____________________________________ */
