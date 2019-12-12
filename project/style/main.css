@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.preloader{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: 98; 
+    /* ???????????? сработает ли без него?????????????????? */  
+    transition: 1s all;  
+    opacity: 1;
+}
+.loader{
+    width: 100px;
+    height: 100px;
+    border: 15px solid white;
+    border-radius: 50%;
+    border-top-color: yellow;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);  
+    animation: 1s spin infinite linear;  
+}
+
+@keyframes  spin{
+    from{
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to{
+        transform: translate(-50%, -50%) rotate(360deg);
+
+    }
+}
