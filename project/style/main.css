@@ -13,6 +13,7 @@
     /* ???????????? сработает ли без него?????????????????? */  
     transition: 1s all;  
     opacity: 1;
+    visibility: visible;
 }
 .loader{
     width: 100px;
@@ -27,6 +28,11 @@
     animation: 1s spin infinite linear;  
 }
 
+.done{
+    opacity: 0;
+    visibility: hidden;
+}
+
 @keyframes  spin{
     from{
         transform: translate(-50%, -50%) rotate(0deg);
@@ -36,3 +42,4 @@
 
     }
 }
+
